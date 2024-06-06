@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人網站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('showcase.jpg') no-repeat center center/cover;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .section {
+            padding: 20px 0;
+            border-bottom: #0779e4 1px solid;
+        }
+        .section h2 {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .section p {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .contact-form {
+            width: 50%;
+            margin: auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>個人網站</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">關於我</a></li>
+                    <li><a href="#roles">角色與職責</a></li>
+                    <li><a href="#achievements">成就與獎項</a></li>
+                    <li><a href="#conventions">大會與演講</a></li>
+                    <li><a href="#projects">創業項目</a></li>
+                    <li><a href="#contact">聯絡方式</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>歡迎來到我的個人網站</h1>
+            <p>展示我的專業成就和角色</p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>關於我</h2>
+            <p>Senior Manager</p>
+            <p>Agency Digital Ambassador</p>
+            <p>Senior Business Consultant</p>
+            <p>Master of Laws in China</p>
+        </div>
+    </section>
+
+    <section id="roles" class="section">
+        <div class="container">
+            <h2>角色與職責</h2>
+            <p>BNI Paragon Chapter Event Coordinator</p>
+            <p>Kwun Tong Lion Club Treasurer</p>
+        </div>
+    </section>
+
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2>成就與獎項</h2>
+            <p>《EAST WEEK》MAGAZINE PERSONAL INTERVIEW 2015</p>
+            <p>MILLION DOLLAR CLUB 2014, 2018</p>
+            <p>SUPERSTAR CLUB 2015-2016</p>
+            <p>IQA 2016</p>
+            <p>MDRT 2015, 2016, 2018, 2020</p>
+        </div>
+    </section>
+
+    <section id="conventions" class="section">
+        <div class="container">
+            <h2>大會與演講</h2>
+            <p>MIB 2014</p>
+            <p>HONG LEONG INSURANCE CONVENTION GUENT SPEAKER 2016</p>
+            <p>DRAGON MEETING 2016</p>
+            <p>SUBMIT CLUB 2017</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>創業項目</h2>
+            <p>LegalEase App 創辦人</p>
+            <p>We Grow 親子活動平臺創辦人</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>聯絡方式</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="姓名">
+                <input type="email" placeholder="電子郵件">
+                <textarea placeholder="訊息"></textarea>
+                <button type="submit">提交</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 個人網站. 保留所有權利.</p>
+    </footer>
+</body>
+</html>
